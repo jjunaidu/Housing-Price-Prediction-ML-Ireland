@@ -1,0 +1,11 @@
+Model,R2 (log),R2 (EUR),MAE (EUR),RMSE (EUR),table
+Ridge Regression,0.5591,0.4916,87638.0,138450.0,Model Comparison
+Random Forest,0.5821,0.5286,83570.0,133318.0,Model Comparison
+HistGBR v1,0.6045,0.5546,80766.0,129592.0,Model Comparison
+HistGBR v2,0.6037,0.5535,80906.0,129751.0,Model Comparison
+HistGBR v3,0.6046,0.5547,80755.0,129579.0,Model Comparison
+Weighted Blend,0.6011,0.5474,81388.0,130632.0,Model Comparison
+E1: Structural Only,0.3494,0.2582,109023.0,167245.0,Ablation Study
+E2: Structural + Geospatial,0.6046,0.5548,80752.0,129569.0,Ablation Study
+E3: Structural + Macro,0.3493,0.2579,109034.0,167283.0,Ablation Study
+E4: All Features,0.6045,0.5546,80766.0,129592.0,Ablation Study
